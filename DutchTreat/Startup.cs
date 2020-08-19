@@ -20,8 +20,10 @@ namespace DutchTreat
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        //When the request comes in, I want you to run this code, so the order of middleware bellow matters.(ASP.NET pipleline.)
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseDefaultFiles();
             app.UseStaticFiles();
         }
     }
