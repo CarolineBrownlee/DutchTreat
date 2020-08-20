@@ -1,13 +1,16 @@
-﻿
+﻿$(document).ready(function () {
+    console.log("Plural Sight");
 
-console.log("Plural Sight");
+    var theForm = $("#theForm");
+    theForm.hide();
 
-var theForm = document.getElementById("theForm");
-theForm.hidden = true;
+    var button = $("#buyButton");
+    button.on("click", function () {
+        alert("Buying Item");
+    });
 
-var button = document.getElementById("buyButton");
-button.addEventListener("click", function () {
-    alert("Buying Item");
+    var productInfo = $(".product-props li");
+    productInfo.on("click", function () {
+        console.log("You clicked on " + $(this).text());
+    });
 });
-
-var productInfo = document.getElementsByClassName("product-props");
