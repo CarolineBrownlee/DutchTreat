@@ -27,9 +27,10 @@ namespace DutchTreat
             if (env.IsEnvironment("Development"))
             {
                 app.UseDeveloperExceptionPage();
-            } else
+            } 
+            else
             {
-                // Add Error Page
+                /*app.UseExceptionHandler("/error");*/
             }
             app.UseStaticFiles();
             app.UseNodeModules();

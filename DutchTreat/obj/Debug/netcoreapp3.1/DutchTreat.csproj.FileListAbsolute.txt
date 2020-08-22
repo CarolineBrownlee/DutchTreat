@@ -36,3 +36,5 @@ C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug
 C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug\netcoreapp3.1\Razor\_ViewStart.cshtml.g.cs
 C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\About.cshtml.g.cs
 C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\Contact.cshtml.g.cs
+C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug\netcoreapp3.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
