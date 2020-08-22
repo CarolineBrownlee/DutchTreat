@@ -23,6 +23,13 @@ namespace DutchTreat.Controllers
          
         }
 
+        /*This is referenced when form is submitted in Contact.cshtml*/
+        [HttpPost("contact")]
+        public IActionResult Contact(object model)
+        {
+            return View();
+        }
+
         [HttpGet("about")]
         public IActionResult About()
         {
