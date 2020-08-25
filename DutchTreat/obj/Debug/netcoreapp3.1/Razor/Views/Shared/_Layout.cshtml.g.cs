@@ -19,8 +19,15 @@ using DutchTreat.Controllers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\_ViewImports.cshtml"
+using DutchTreat.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"90543f14fc8bef471d2b07dcc4a4b3c417b2abaf", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"269c3eade8ea7dbb4f28d6147de13770f7e17039", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c61b9cdd154e2fdf8fb1e321857ae8028713c93f", @"/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/css/site.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -59,7 +66,7 @@ using DutchTreat.Controllers;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf6026", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf6227", async() => {
                 WriteLiteral("\r\n    <title>Dutch Treat: ");
 #nullable restore
 #line 4 "C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\Views\Shared\_Layout.cshtml"
@@ -69,7 +76,7 @@ using DutchTreat.Controllers;
 #line hidden
 #nullable disable
                 WriteLiteral("</title>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf6580", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf6781", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -96,9 +103,9 @@ using DutchTreat.Controllers;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf8462", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf8663", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <h1>Welcome to Dutch Treat</h1>\r\n        <menu>\r\n            <ul>\r\n                <li>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf8837", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf9038", async() => {
                     WriteLiteral("Home");
                 }
                 );
@@ -116,7 +123,7 @@ using DutchTreat.Controllers;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\r\n                <li>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf10293", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf10494", async() => {
                     WriteLiteral("Contact");
                 }
                 );
@@ -134,7 +141,7 @@ using DutchTreat.Controllers;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("</li>\r\n                <li>");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf11753", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf11954", async() => {
                     WriteLiteral("About");
                 }
                 );
@@ -168,7 +175,7 @@ using DutchTreat.Controllers;
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n    </section>\r\n    <footer>Copyright 2017 Dutch Treat LLC</footer>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf13864", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf14065", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -182,7 +189,7 @@ using DutchTreat.Controllers;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf14964", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90543f14fc8bef471d2b07dcc4a4b3c417b2abaf15165", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -19,8 +19,15 @@ using DutchTreat.Controllers;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\caroline.brownlee\Angular8_ASP.NETCore_PluralSight\DutchTreat\_ViewImports.cshtml"
+using DutchTreat.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c04068213da7a6b194a7b45f4b5e4d9d50523fce", @"/Views/App/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"269c3eade8ea7dbb4f28d6147de13770f7e17039", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c61b9cdd154e2fdf8fb1e321857ae8028713c93f", @"/_ViewImports.cshtml")]
     public class Views_App_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/img/VanGogh.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -60,7 +67,7 @@ using DutchTreat.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("    <div class=\"product-info\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c04068213da7a6b194a7b45f4b5e4d9d50523fce4168", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c04068213da7a6b194a7b45f4b5e4d9d50523fce4369", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -86,7 +93,7 @@ using DutchTreat.Controllers;
 
     <div id=""theForm"">
         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c04068213da7a6b194a7b45f4b5e4d9d50523fce5524", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c04068213da7a6b194a7b45f4b5e4d9d50523fce5725", async() => {
                 WriteLiteral(@"
             <label>Your Name:  </label>
             <br />
@@ -118,7 +125,7 @@ using DutchTreat.Controllers;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </div>\r\n\r\n    <div>\r\n        <div id=\"loginToggle\">Login</div>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c04068213da7a6b194a7b45f4b5e4d9d50523fce7327", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c04068213da7a6b194a7b45f4b5e4d9d50523fce7528", async() => {
                 WriteLiteral(@"
             <div>
                 <label>Username</label>
