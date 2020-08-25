@@ -3,22 +3,27 @@
     }
 
 @*method=post tells it that when the form is submitted, to make a post request. IActionResult for this and the model is located in AppController.cs*@
+@*below tells us which model belongs to this form*@
+@model ContactViewModel
+@{
+    ViewBag.Title = "Contact Us";
+}
 <form method="post">
-    <label>Your Name:  </label>
+    <label asp-for="Name">Your Name:  </label>
     <br />
-    <input type="text" name="name"/>
+    <input type="text" asp-for=" Name"/>
     <br />
-    <label>Email:  </label>
+    <label asp-for="Email">Email:  </label>
     <br />
-    <input type="email" name="email"/>
+    <input type="email" asp-for="Email"/>
     <br />
-    <label>Subject:  </label>
+    <label asp-for="Subject">Subject:  </label>
     <br />
-    <input type="text" name=" subject"/>
+    <input type="text" asp-for="Subject"/>
     <br />
-    <label>Message:  </label>
+    <label asp-for="Message">Message:  </label>
     <br />
-    <textarea rows="4" name="message"></textarea>
+    <textarea rows="4" asp-for="Message"></textarea>
     <br />
     <input type="submit" value="Send Message" />
 </form>
